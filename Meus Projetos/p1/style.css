@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(8, 25, 65);
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+
+li{
+    display: inline-block;
+    margin: 30px;
+    
+}
+
+li > a{
+    border: 10px;
+    border-color: 88ccf1;
+}
+
+
+
+#title{
+    line-height: 10px;
+    flex-direction: column;
+}
+
+h1{
+    font-weight: 100px;
+    font-size: 60px;
+    color: #3E76E6;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+}
+
+article{
+    margin-left: 50px;
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+img{
+    width: 400px;
+}
+
+a{
+    color:  #ffffff;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color:  #88ccf1;
+    transition: 0.3s;
+
+}
+
+#inscreva-se-btn{
+    border: 2px solid #3E76E6;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover{
+    background-color:#88ccf1;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+input{
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 10px;
+    height: 10px;
+}
+
+#submit{
+    width: 50%;
+    background-color: #88ccf1;
+    height: 50px;
+}
